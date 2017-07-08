@@ -50,10 +50,10 @@ Offset:  <span id="offset"></span> with best precision: <span id="precision"></s
             SyncInterval: 20000 // Set this often for demo purposes only
         });
 
-        var socket = new WebSocket("ws://" + window.location.host + "/ws");
-        socket.onmessage = function(msg){
-            GoTime.wsReceived(msg.data)
-        }
+        // var socket = new WebSocket("ws://" + window.location.host + "/ws");
+        // socket.onmessage = function(msg){
+        //     GoTime.wsReceived(msg.data)
+        // }
 
         // GoTime.wsSend(function(){
         //     if (socket !== null && socket.readyState === 1) {
